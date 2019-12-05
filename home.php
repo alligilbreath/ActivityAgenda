@@ -26,27 +26,28 @@
 <legend>Add Exercise</legend>
 <label>Choose Activity </label><select id="activity">
 <option disabled>Gym Activities</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Weight Lifting</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Aerobics</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Treadmill</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Elliptical</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Bicycling</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Rowing</option>
+<option id="weight" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Weight Lifting</option>
+<option id="aerobics" value = "2" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Aerobics</option>
+<option id="treadmill" value = "3" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Treadmill</option>
+<option id="elliptical" value = "4" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Elliptical</option>
+<option id="stat_bike" value = "5" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Bicycling</option>
+<option id="stat_row" value = "6" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Rowing</option>
 <option disabled>Outdoor / Sports</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Running</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Bicycling</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Soccer</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Golf</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Volleyball</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Softball</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Tennis</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Swimming</option>
+<option id="running" value = "7" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Running</option>
+<option id="bike" value = "8" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Bicycling</option>
+<option id="soccer" value = "9" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Soccer</option>
+<option id="golf" value = "10" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Golf</option>
+<option id="volleyball" value = "11" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Volleyball</option>
+<option id="softball" value = "12" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Softball</option>
+<option id="tennis" value = "13" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Tennis</option>
+<option id="swimming" value = "14" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Swimming</option>
 <option disabled>Other</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Easy Activity</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Moderate Activity</option>
-<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Vigorous Activity</option>
+<option id="easy" value = "15" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Easy Activity</option>
+<option id="moderate" value = "16" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Moderate Activity</option>
+<option id="vigorous" value = "17" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Vigorous Activity</option>
 </select>
 <label>Time(min) </label><input type="number" id="time" min="1" max="180" disabled>
+<input type="submit" disabled>
 </fieldset></form>
 </div>
 <br>
