@@ -25,9 +25,26 @@
 <form><fieldset>
 <legend>Add Exercise</legend>
 <label>Choose Activity </label><select id="activity">
-<option id="1" value = "1" disabled>one</option>
-<option id="2" value = "2" disabled>two</option>
-<option id="3" value = "3" disabled>three</option>
+<option disabled>Gym Activities</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Weight Lifting</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Aerobics</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Treadmill</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Elliptical</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Bicycling</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Stationary Rowing</option>
+<option disabled>Outdoor / Sports</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Running</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Bicycling</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Soccer</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Golf</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Volleyball</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Softball</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Tennis</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Swimming</option>
+<option disabled>Other</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Easy Activity</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Moderate Activity</option>
+<option id="1" value = "1" disabled>&nbsp;&nbsp;&nbsp;&nbsp;Vigorous Activity</option>
 </select>
 <label>Time(min) </label><input type="number" id="time" min="1" max="180" disabled>
 </fieldset></form>
